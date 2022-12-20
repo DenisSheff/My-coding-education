@@ -72,3 +72,5 @@ if 1000 <= year <= 9999:
         print("NO")
 else:
     print("NO")
+
+
