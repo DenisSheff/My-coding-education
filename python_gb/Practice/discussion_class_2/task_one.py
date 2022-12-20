@@ -8,9 +8,12 @@ system('cls')
 print()
 num = int(input("Enter a value: "))
 
+# my_list= []
 for _ in range(num):
     print(randrange(-100, 100), end=", ")
+    # my_list.append(randrange(-100, 100))
 
+# print(my_list)
 
 
 
