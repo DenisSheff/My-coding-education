@@ -25,4 +25,7 @@ my_list = []
 
 for i in range(1, number + 1):
     my_list.append([i, 3 * i + 1])
+#   my_list[i] = 3 * i + 1
 print(dict(my_list))
+# print(my_list)
+
