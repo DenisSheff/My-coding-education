@@ -7,11 +7,9 @@
 # - 0,56 -> 11
 
 number = float(input("Enter a value: "))
-sum = 0
+sum_of_digits = 0
 
-
-while number > 0:
-    digit = number % 10
-    sum += digit
-    number //= 10
-print(f"The sum of all digits is {int(sum)}.")
+for i in str(number):
+    if i != '.':
+        sum_of_digits += int(i)
+print(f"The sum of all digits is {sum_of_digits}.")
