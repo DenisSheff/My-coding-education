@@ -14,6 +14,7 @@ def find_f(number):
     else:
         return number * find_f(number - 1)
 
+
 my_list = []
 for i in range(1, n + 1):
     my_list.append(find_f(i))
