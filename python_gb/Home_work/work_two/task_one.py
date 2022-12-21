@@ -6,10 +6,10 @@
 
 # - 0,56 -> 11
 
-number = float(input("Enter a value: "))
+number = input("Enter a value: ")
 sum_of_digits = 0
 
-for i in str(number):
-    if i != '.':
+for i in number:
+    if i.isdigit():
         sum_of_digits += int(i)
 print(f"The sum of all digits is {sum_of_digits}.")
