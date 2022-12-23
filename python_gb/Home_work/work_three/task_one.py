@@ -1,4 +1,6 @@
-# Задайте список из нескольких чисел. Напишите программу, которая найдёт сумму элементов списка, стоящих на нечётной позиции.
+# Задайте список из нескольких чисел. Напишите программу,
+# которая найдёт сумму элементов списка,
+# стоящих на нечётной позиции.
 
 # Пример:
 
@@ -22,4 +24,4 @@ def multiply_odds(new_block):
 
 number = int(input("Enter amount of elements in a list: "))
 my_list = []
-print(f'The filled list is {fill_array(number, my_list)}. The sum of the odd elements is {multiply_odds(my_list)}.')
+print(f'\nThe filled list is {fill_array(number, my_list)}.\nThe sum of the odd elements is {multiply_odds(my_list)}.')
