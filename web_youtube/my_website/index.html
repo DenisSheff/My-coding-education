@@ -4,50 +4,37 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="../my_website/style.css">
 	<title>My CV</title>
+	<link rel="stylesheet" href="../my_website/style.css">
 </head>
 <body>
-	<table cellspacing="15">
-      <tr>
-        <td>
-          <img src="../my_website/src/my_pic.jpeg" width="200" alt="тут моя фотка" />
-        </td>
-        <td>
+	<div class="container">
+	<div class="page_header boxing">
+		<div class="page_header_image">
+          <img class="photo" src="../my_website/src/my_pic.jpeg" alt="My image" />
+			</div>
+			<div class="page_header_text">
           <h1>Denis Shevchenko</h1>
           <p>I am junior frontend-developer.</p>
           <p>I like to read alot, meet new people and being in progress.</p>
-        </td>
-      </tr>
-    </table>
-
-    <hr>
-
-    <h2>My media</h2>
-    <ul>
-      <li><a href="https://instagram.com/chieffchenko" target="_blank">Instagram</a></li>
-      <li><a target="_blank" href="https://t.me/DenchSh">Telegram</a></li>
-    </ul>
-
-    <hr>
-
+			</div>
+			<!-- <h4>My media</h4>
+			<a href="https://instagram.com/chieffchenko" target="_blank">Instagram</a>
+			|
+			<a target="_blank" href="https://t.me/DenchSh">Telegram</a> -->
+	</div>
+<div class="card boxing">
     <h2>My hobbies</h2>
-    <ol>
+    <ol class="list">
       <li>Driving</li>
       <li>Reading</li>
       <li>Travelling</li>
       <li>Coding</li>
     </ol>
-
-    <hr>
-
+	</div>
+<div class="card boxing">
     <h2>Experience</h2>
-    <table>
-      <tr>
-        <th>Company</th>
-        <th>Position</th>
-        <th>Year</th>
-      </tr>
+    <table class="table">
       <tr>
         <td>Snezhnogorsk school</td>
         <td>English teacher</td>
@@ -59,7 +46,8 @@
         <td>2021 - 2021</td>
       </tr>
     </table>
-
+	</div>
+<div class="card boxing">
     <h2>Связаться со мной</h2>
 
     <form action="/">
@@ -81,5 +69,7 @@
 
       <input type="submit" value="Reply!">
     </form>  
+	</div> 
+	</div>
 </body>
 </html>

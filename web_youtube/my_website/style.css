@@ -1,4 +1,81 @@
-body {
-	width: 1100px;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&family=Roboto:wght@100;400&display=swap');
+
+html {
+	background-color: #fceed1;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+a:hover {
+	/* text-decoration: underline; */
+	font-size: 25px;
+}
+
+a:active {
+	color: #86898f;
+}
+
+/* Main box */
+
+.container {
+	max-width: 1200px;
 	margin: 50px auto 0 auto;
+	font: normal 16px 'Roboto', sans-serif;
+	letter-spacing: 2px;
+}
+
+.boxing {
+	padding: 50px;
+	background-color:  #7d3cff;
+	border-radius: 20px;
+	box-shadow: 5px 0px 10px black;
+	margin: 50px 10px 10px 10px;
+	color: white;
+}
+
+.card {
+	padding: 15px 20px;
+
+}
+
+.card h2 {
+	margin-bottom: 20px;
+}
+
+.list {
+padding: 0;
+list-style: none;
+}
+
+.list li{
+	margin-bottom: 10px;
+}
+
+.table {
+	width: 100%;
+}
+.table td {
+	padding-bottom: 10px;
+}
+
+.page_header {
+	display: flex;
+	align-items: space-between;
+
+}
+.photo {
+	width: 200px;
+	border-radius: 15px;
+	box-shadow: 5px 5px 10px black;
+	margin:  0 50px 0 0;
+}
+.page_header_image{
+flex:  0 0 200px; 
+}
+
+.page_header_text{
+flex: 1 1 auto;
+
 }
