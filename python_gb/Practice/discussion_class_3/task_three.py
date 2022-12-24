@@ -10,3 +10,16 @@
 # - список: ["йцу", "фыв", "ячс", "цук", "йцукен"], ищем: "йцу", ответ: -1
 # - список: ["123", "234", 123, "567"], ищем: "123", ответ: -1
 # - список: [], ищем: "123", ответ: -1
+
+def find_index_coin(new_list, text, num=2):
+    count = 0
+    for i in range(len(new_list)):
+        if text == my_list[i]:
+            count += 1
+        if count == num:
+            return i
+    return -1
+
+
+my_list = ["qwe", "asd", "zxc", "qwe", "ertqwe"]
+print(find_index_coin(my_list, 'qwe'))
