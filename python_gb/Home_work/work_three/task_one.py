@@ -5,13 +5,14 @@
 # Пример:
 
 # - [2, 3, 5, 9, 3] -> на нечётных позициях элементы 3 и 9, ответ: 12
-from random import *
+from random import randint
+from my_function import fill_array
 
 
-def fill_array(elements, new_block):
-    for _ in range(elements):
-        new_block.append(randint(-elements, elements))
-    return new_block
+# def fill_array(elements, new_block):
+#     for _ in range(elements):
+#         new_block.append(randint(-elements, elements))
+#     return new_block
 
 
 def multiply_odds(new_block):

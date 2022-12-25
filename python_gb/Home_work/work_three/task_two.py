@@ -8,18 +8,19 @@
 # - [2, 3, 4, 5, 6] => [12, 15, 16];
 # - [2, 3, 5, 6] => [12, 15]
 
-from random import *
+from my_function import fill_array
 
 
-def fill_array(elements, new_block):
-    for _ in range(elements):
-        new_block.append(randint(-elements, elements))
-    return new_block
+def multiply_couples(old_block):
+    new_list = []
+    for i in range(0, (len(old_block) // 2) + 1):
+        new_list.append(old_block[i] * old_block[len(old_block) - i - 1])
+    return new_list
+
 
 number = int(input("Enter amount of elements in a list: "))
-new_list = []
-print(f'\nThe filled list is {fill_array(number, new_list)}.')
+my_list = []
+print(f'\nThe filled list is {fill_array(number, my_list)}.')
+print(multiply_couples(my_list))
 
-
-def multiply_couples(new_block):
     
