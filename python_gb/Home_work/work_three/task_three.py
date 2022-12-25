@@ -13,10 +13,23 @@ def fill_array(elements, range_number, new_block):
     return new_block
 
 
-number = int(input("Enter a value for list: "))
-range_num = int(input("Enter a value for a range: "))
+def find_difference(new_block):
+    new_list = []
+    for i in new_block:
+        if i > 0:
+            division_sign = round((i % 1), 2)
+        else:
+            division_sign = round((i % (-1)), 2)
+        new_list.append(division_sign)
+    max_element = max(new_list)
+    min_element = min(new_list)
+    print(max_element - min_element)
+
+
+number = int(input("Enter an amount of elements in a list: "))
+range_num = int(input("Enter a value for a elements range: "))
 my_list = []
 
 fill_array(number, range_num, my_list)
 print(my_list)
-print(max(my_list[range_num % 1]) - min(my_list[range_num % 1]))
+find_difference(my_list)

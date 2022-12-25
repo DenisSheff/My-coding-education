@@ -13,7 +13,7 @@ from my_function import fill_array
 
 def multiply_couples(old_block):
     new_list = []
-    for i in range(0, (len(old_block) // 2) + 1):
+    for i in range(0, len(old_block) // 2):
         new_list.append(old_block[i] * old_block[len(old_block) - i - 1])
     return new_list
 
