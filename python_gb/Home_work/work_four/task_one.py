@@ -5,4 +5,4 @@
 from math import pi
 
 d = int(input("Enter a value to set numbers after comma sign for Pi: "))
-print(f'Pi wi amount numbers {d} after comma is {round(pi, d)}.')
+print(f'Amount of numbers {d} after comma is {round(pi, d)}.')

@@ -14,4 +14,4 @@ while simple_number <= number:
         simple_number = 2
     else:
         simple_number += 1
-print(f"Order of simple multiple numbers of number {recent_number} is listed here: {my_list}")
+print(f"Order of simple multiple numbers of number {recent_number} is listed here: {my_list}.")
