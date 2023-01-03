@@ -2,5 +2,14 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/C#/C#_home_work" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/C#/Class_2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/C#/Class_3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/C#/Class_3/version_control_lection_3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/C#/Class_3_1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/C#/Examples" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/C#/Home_work_3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/C#/Home_work_3/github-remote-repository" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/C#/Manual" vcs="Git" />
   </component>
 </project>
