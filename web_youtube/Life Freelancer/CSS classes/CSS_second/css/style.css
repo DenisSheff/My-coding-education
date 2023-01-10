@@ -1,0 +1,17 @@
+@import 'reset_basic_settings.css';
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.example_block {
+  margin: 0 0 20px 0;
+  border: 10px solid black;
+  border-radius: 15px;
+  padding: 20px;
+}
+.example-string {
+}

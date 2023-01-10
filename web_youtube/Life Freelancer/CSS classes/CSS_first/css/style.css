@@ -1,0 +1,58 @@
+@import 'reset_basic_settings.css';
+
+body {
+  max_width: 1200px;
+  margin: 0 auto;
+
+}
+div {
+  font-size: 20px;
+  padding: 50px;
+}
+p {
+  margin: 30px 10px 50px 10px;
+  text-align: justify;
+  text-decoration: underline;
+}
+p:nth-child(1) {
+  text-align: center;
+  background-color: greenyellow;
+  border-radius:  15px;
+  padding: 30px;
+  color: #fff;
+  text-decoration: line-through;
+  text-shadow: 5px -7px 5px black;
+  box-shadow: 5px 10px 5px red;
+}
+span {
+  background-color: yellow;
+  color: green;
+}
+.arial {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+.bold_font {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  font-style: italic;
+}
+.color {
+  color: #f00f00;
+  text-align: right;
+  text-transform: lowercase;
+}
+
+.ident {
+  text-indent: 50px;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  text-shadow: 5px -5px 5px blueviolet;
+  word-spacing: 15px;
+ 
+  line-height: 3;
+}
