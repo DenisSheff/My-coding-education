@@ -15,23 +15,18 @@ p {
   margin-bottom: 20px;
   &:nth-child(1) {
     font-size: 5px;
-
   }
   &:nth-child(2) {
     font-style: italic;
-    
   }
   &:nth-child(3) {
     font-weight: 700;
-    
   }
   &:nth-child(4) {
     text-decoration: line-through;
-    
   }
   &:nth-child(5) {
     text-decoration: underline;
-    
   }
   &:nth-child(6) {
     border: 5px dotted black;
@@ -50,7 +45,7 @@ p {
   }
 }
 .b-color {
-  background-color: #DAD0E5 ;
+  background-color: #dad0e5;
 }
 .title {
   display: flex;
@@ -89,36 +84,36 @@ p {
   &__text {
   }
   &__image {
-    
   }
 }
 
 .middle {
-    &__row {
-      display: flex;
-      justify-content: space-between;
+  &__row {
+    display: flex;
+    justify-content: space-between;
   }
-    &__image {
-      img {height: 290px;}
+  &__image {
+    img {
+      height: 290px;
+    }
   }
-    &__body {
+  &__body {
   }
-    &__text {
+  &__text {
   }
 }
 
 .list {
-
-    &__row {
+  &__row {
   }
-    &__title {
+  &__title {
   }
   &__unnumbered {
     li {
       padding-left: 36px;
       margin-bottom: 20px;
       &:nth-child(1) {
-       background: url('../img/ul_list/li.png') left no-repeat;
+        background: url('../img/ul_list/li.png') left no-repeat;
       }
       &:nth-child(2) {
         background: url('../img/ul_list/li_1.png') left no-repeat;
@@ -140,7 +135,7 @@ p {
       margin-bottom: 20px;
       &:nth-child(1) {
         margin-top: 50px;
-       background: url('../img/ol_list/li.png') left no-repeat;
+        background: url('../img/ol_list/li.png') left no-repeat;
       }
       &:nth-child(2) {
         background: url('../img/ol_list/li_1.png') left no-repeat;
@@ -166,14 +161,14 @@ p {
   }
   &__text_1 {
     font-size: 20px;
-   text-decoration: none;
-   a:visited{
-    color: #000;
-   }
-   a:hover {
-    color: chartreuse;
-    font-size: 30px;
-    text-decoration: underline;
-   }
+    text-decoration: none;
+    a:visited {
+      color: #000;
+    }
+    a:hover {
+      color: chartreuse;
+      font-size: 30px;
+      text-decoration: underline;
+    }
   }
 }

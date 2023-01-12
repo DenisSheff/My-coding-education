@@ -170,17 +170,52 @@
 # print(f'Количество согласных букв равно {odds_counter}')
 
 
-def cut_list(my_list):
-    if len(my_list) % 2 != 0:
-        new_list = my_list[len(my_list) // 2 + 1:]
-        new_list2 = my_list[:len(my_list) // 2 + 1]
-    else:
-        new_list = my_list[len(my_list) // 2:]
-        new_list2 = my_list[:len(my_list) // 2]
-    return new_list + new_list2
+# def cut_list(my_list):
+#     if len(my_list) % 2 != 0:
+#         new_list = my_list[len(my_list) // 2 + 1:]
+#         new_list2 = my_list[:len(my_list) // 2 + 1]
+#     else:
+#         new_list = my_list[len(my_list) // 2:]
+#         new_list2 = my_list[:len(my_list) // 2]
+#     return new_list + new_list2
+#
+#
+# text = input()
+# print(cut_list(text))
+#
+# s = 'i Learn Python language'
+# print(s.capitalize())
+#
+#
+# s = 'i LEARN Python LAnguaGE'
+# print(s.lower())
+#
+# s1 = 'a'
+# s2 = s1.upper()
+# print(s1, s2)
+#
+# s = 'i LEARN Python LAnguaGE'
+# print(s.upper())
+#
+# s = 'i LEARN Python LAnguaGE'
+# print(s.swapcase())
 
+# text = input()
+# if text == text.title():
+#     print('YES')
+# else:
+#     print('NO')
 
-text = input()
-print(cut_list(text))
+# text = input().lower()
+# if 'хорош' in text:
+#     print('YES')
+# else:
+#     print('NO')
 
-
+# text = input()
+# text2 = text.upper()
+# counter = 0
+# for i in range(len(text)):
+#     if text[i] != text2[i]:
+#         counter += 1
+# print(counter)

@@ -1,7 +1,7 @@
 @import 'reset_basic_settings.css';
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 25px;
 }
 
@@ -48,7 +48,7 @@ p:last-child:hover {
 }
 
 .b-color {
-  background-color: #DAD0E5;
+  background-color: #dad0e5;
 }
 
 .title {
@@ -94,19 +94,19 @@ p:last-child:hover {
   margin-bottom: 20px;
 }
 .list__unnumbered li:nth-child(1) {
-  background: url("../img/ul_list/li.png") left no-repeat;
+  background: url('../img/ul_list/li.png') left no-repeat;
 }
 .list__unnumbered li:nth-child(2) {
-  background: url("../img/ul_list/li_1.png") left no-repeat;
+  background: url('../img/ul_list/li_1.png') left no-repeat;
 }
 .list__unnumbered li:nth-child(3) {
-  background: url("../img/ul_list/li_2.png") left no-repeat;
+  background: url('../img/ul_list/li_2.png') left no-repeat;
 }
 .list__unnumbered li:nth-child(4) {
-  background: url("../img/ul_list/li_3.png") left no-repeat;
+  background: url('../img/ul_list/li_3.png') left no-repeat;
 }
 .list__unnumbered li:last-child {
-  background: url("../img/ul_list/li_4.png") left no-repeat;
+  background: url('../img/ul_list/li_4.png') left no-repeat;
 }
 .list__ordered li {
   padding-left: 36px;
@@ -114,16 +114,16 @@ p:last-child:hover {
 }
 .list__ordered li:nth-child(1) {
   margin-top: 50px;
-  background: url("../img/ol_list/li.png") left no-repeat;
+  background: url('../img/ol_list/li.png') left no-repeat;
 }
 .list__ordered li:nth-child(2) {
-  background: url("../img/ol_list/li_1.png") left no-repeat;
+  background: url('../img/ol_list/li_1.png') left no-repeat;
 }
 .list__ordered li:nth-child(3) {
-  background: url("../img/ol_list/li_2.png") left no-repeat;
+  background: url('../img/ol_list/li_2.png') left no-repeat;
 }
 .list__ordered li:last-child {
-  background: url("../img/ol_list/li_3.png") left no-repeat;
+  background: url('../img/ol_list/li_3.png') left no-repeat;
 }
 
 .footer a {
