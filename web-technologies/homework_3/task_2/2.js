@@ -1,7 +1,8 @@
 "use strict"
+
+const userName = prompt("What is your name?");
 function greeting() {
-  const userName = prompt("What is your name?");
-  alert(`Hello, ${userName}! Have a nice day:)`);
+  console.log(`Hello, ${userName}! Have a nice day:)`);
 }
 
 greeting();
