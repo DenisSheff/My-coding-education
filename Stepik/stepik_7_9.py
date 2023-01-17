@@ -219,3 +219,22 @@
 #     if text[i] != text2[i]:
 #         counter += 1
 # print(counter)
+
+# s = 'aabbAAccDDaa'
+# s = s.lower()
+# print(s.count('a'))
+
+# s = 'www.stepik.org'
+# print(s.startswith('www'))
+
+# s = 'I learn Python language. Python - awesome!'
+# print(s.find('Python'))
+
+# s = '     I learn Python language               '
+# print(s.strip())
+#
+# s = 'abcdababa'
+# print(s.replace('ab', '123'))
+
+# text = input()
+# print(len(text.split()))
