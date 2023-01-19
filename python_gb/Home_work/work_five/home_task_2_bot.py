@@ -1,3 +1,5 @@
+# Simple bot
+
 from random import randint
 
 
@@ -22,8 +24,8 @@ def main():
           f'\nThe one who won will get all the candies.'
           f'\nLet the battle begin!')
     print()
-    player_1 = input("Enter a name of the first gamer: ")
-    player_2 = input("Enter a name of the second gamer: ")
+    player_1 = input("Enter a name of the gamer: ")
+    player_2 = 'Bot'
     game_order = randint(0, 2)
     counter_player_1, counter_player_2 = 0, 0
     if game_order:
@@ -40,7 +42,7 @@ def main():
             print_gamer_move(player_1, candy_counter, counter_player_1, table_value)
             print()
         else:
-            candy_counter = pick_candy(player_2)
+            candy_counter = randint(1, 29)
             counter_player_2 += candy_counter
             table_value -= candy_counter
             game_order = True
