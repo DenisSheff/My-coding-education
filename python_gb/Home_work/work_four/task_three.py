@@ -8,6 +8,7 @@ def fill_array(elements, new_block):
         new_block.append(randint(-elements, elements))
     return new_block
 
+
 def find_identical(old_block):
     new_block = []
     for element in old_block:
@@ -19,5 +20,5 @@ def find_identical(old_block):
 amount_elements = int(input("Enter amount of numbers in a list: "))
 my_list = []
 print(f'Created list: {fill_array(amount_elements, my_list)}.')
-print(f'List withour repeated number: {find_identical(my_list)}.')
+print(f'List without repeated number: {find_identical(my_list)}.')
 
