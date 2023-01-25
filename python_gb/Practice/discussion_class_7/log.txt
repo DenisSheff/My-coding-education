@@ -1,0 +1,6 @@
+We receive numbers 5, operator = "+" and 5.
+Settling the account: 5 + 5.
+We receive numbers 5, operator = "*" and 6.
+Settling the account: 5 * 6.
+We receive numbers 5, operator = "-" and 5.
+Settling the account: 5 - 5.
