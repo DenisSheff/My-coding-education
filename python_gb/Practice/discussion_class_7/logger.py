@@ -15,4 +15,4 @@ def log_all(text):
 
 def log_out():
     with open('log.txt') as data:
-        print(data.readlines())
+        print(*data.readlines())
