@@ -2,8 +2,8 @@ import logger
 
 
 def get_user_data():
-    user_last_name = input('Enter a last name: ')
     user_name = input('Enter a name: ')
+    user_last_name = input('Enter a last name: ')
     user_phone_number = input('Enter a phone number: ')
     user_info = input('Enter additional information about a speaker: ')
     print(f'User: {user_name} {user_last_name} is created. \n'

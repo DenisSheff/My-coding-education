@@ -1,0 +1,7 @@
+User: Denis Shevchenko
+Name: Denis
+Last Name: Shevchenko
+Phone Number: unknown
+Information: I am a creator of this simple phone book. For now You can create new contact, check all existing ones or remove all the info from the book. 
+--------------------------------------
+
