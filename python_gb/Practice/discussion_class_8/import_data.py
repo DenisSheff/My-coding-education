@@ -11,7 +11,7 @@ def create_student():
     phone_number = input("Enter student's phone number: ")
     address = input("Enter student's address: ")
     class_name = input("Enter student's form and letter: ")
-    student_data = [last_name, name, patronymic_name, birth_date,phone_number, address, class_name]
+    student_data = [last_name, name, patronymic_name, birth_date, phone_number, address, class_name]
     global all_students
     global id_student
     if class_name not in all_classes:
@@ -28,15 +28,29 @@ def create_class(name_class=False):
 
 
 def change_class():
-    pass
+    global all_classes
+    global all_students
+    student_id = int(input("Enter student's id: "))
+    old_class_number = all_students[student_id][-1]
+    new_class_number = input('Enter a new class for the student: ')
+    all_classes[old_class_number].remove(student_id)
+    all_classes[new_class_number].append(student_id)
 
 
 def edit_student():
-    pass
-
-
-def edit_class():
-    pass
+    global all_classes
+    global all_students
+    student_id = int(input("Enter student's id that is needed to be edited: "))
+    new_last_name = input("Enter student's edited last name: ")
+    new_name = input("Enter student's edited name: ")
+    new_patronymic_name = input("Enter student's edited patronymic name: ")
+    new_birth_date = input("Enter student's edited date of birth: ")
+    new_phone_number = input("Enter student's edited phone number: ")
+    new_address = input("Enter student's edited address: ")
+    class_name = all_students[student_id][-1]
+    new_student_data = [new_last_name, new_name, new_patronymic_name,
+                        new_birth_date, new_phone_number, new_address, class_name]
+    all_students[student_id] = new_student_data
 
 
 def remove_info():
