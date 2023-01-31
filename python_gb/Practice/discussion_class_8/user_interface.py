@@ -1,6 +1,5 @@
-import export_data
+from export_data import *
 from import_data import *
-import logger
 
 
 def choose_option():
@@ -16,19 +15,25 @@ def choose_option():
     if user_choice == '1':
         add_choice = input('Choose an option: \n'
                            '1. Add a student\n'
-                           '2. Add a class')
+                           '2. Add a class\n'
+                           'Your choice: ')
         if add_choice == '1':
             create_student()
+            print('Student was added.')
         elif add_choice == '2':
             create_class()
+            print('Class was created.')
+        else:
+            print('You need to choose between these 2 options! Try again!')
     elif user_choice == '2':
         edit_choice = input('Choose an option: \n'
                             '1. Change information about a student\n'
-                            '2. Change class for a student')
+                            '2. Change class for a student\n'
+                            'Your choice: ')
         if edit_choice == '1':
             edit_student()
         elif edit_choice == '2':
-            edit_class()
+            change_class()
     elif user_choice == '3':
         remove_info()
     elif user_choice == '4':
@@ -41,4 +46,3 @@ def choose_option():
         print('Error! Pay attention: you need to choose one of the options in the menu above.\n'
               'Try one more time.')
         choose_option()
-

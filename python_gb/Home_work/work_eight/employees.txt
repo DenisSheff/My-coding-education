@@ -1,0 +1,7 @@
+Employee: Denis Shevchenko
+Name: Denis
+Last Name: Shevchenko
+Phone Number: 8 999
+Information: blahblahblah
+--------------------------------------
+

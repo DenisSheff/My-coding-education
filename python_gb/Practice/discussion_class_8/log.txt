@@ -1,0 +1,45 @@
+Student: Shevchenko Denis Andreevich
+Birthday Date: 16.10.1997
+Phone number: +7 (999) ...
+Home Address: Blagoveshchensk ...
+Form: 11B
+Student: fsdf sdfsdf fsdfs
+Birthday Date: fsdfds
+Phone number: fsfsd
+Home Address: sdf
+Form: sdfsdfs
+Student: Dfsdfsdfs ymjnhgbf mjghnbf
+Birthday Date: mjghnbf
+Phone number: mjhgnbf
+Home Address: mjhngbf
+Form: mjhngbf
+--------------------------
+
+Student: fgbd fhsfd hjfy
+Birthday Date: nd
+Phone number: ghn
+Home Address: f
+Form: nd
+--------------------------
+
+Student: gsg fdg df
+Birthday Date: gdf
+Phone number: gdf
+Home Address: gd
+Form: fg
+--------------------------
+
+Student: f gdf gdf
+Birthday Date: g
+Phone number: dfg
+Home Address: ddf
+Form: g
+--------------------------
+
+Student: fdsgsfdhgsfdg sgsdfgsdfgsdfgsdg dsfg
+Birthday Date: dfsgsdf
+Phone number: gdfsg
+Home Address: sd
+Form: gdf
+--------------------------
+
