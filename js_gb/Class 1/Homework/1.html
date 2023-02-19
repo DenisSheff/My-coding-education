@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Homework</title>
+</head>
+<body>
+<!--
+Обязательное задание.
+
+Необходимо пользователя попросить ввести температуру в градусах Цельсия,
+преобразовать введенное пользователем значение в соответствующую температуру
+в градусах по Фаренгейту и вывести в alert сообщение с текстом:
+"Цельсий: {C}, Фаренгейт: {F}"
+Где вместо {C} и {F} должны быть подставлены соответствующие значения, которые
+были получены ранее.
+Формула перевода градусов Цельсия в градусы Фаренгейта:
+градусы Фаренгейта = (9 / 5) * градусы Цельсия + 32
+
+Уточнение: пользователь всегда вводит корректное число.
+-->
+<script>
+  "use strict";
+
+  const celsius = Number.parseFloat(prompt("Enter your value for C: "));
+  const fahrenheit = (9 / 5) * celsius + 32
+  alert(`Your value for celsius is ${celsius}C. In fahrenheit it is ${Number(fahrenheit.toFixed(2))}F.`)
+  // console.log(typeof Number(fahrenheit.toFixed(2)))
+</script>
+</body>
+</html>

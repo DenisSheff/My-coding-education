@@ -1,1 +1,13 @@
 @import './style.css';
+.columns_row {
+  display: flex;
+}
+.columns_column {
+  flex: 0 1 50%;
+}
+.columns_item_row {
+  display: flex;
+}
+.columns_item_image img {
+  flex: 0 0 200px;
+}

@@ -1,1 +1,27 @@
-@import './style.css'
+@import './style.css';
+
+.columns {
+  &_row {
+    display: flex;
+  }
+  &_column {
+    flex: 0 1 50%;
+  }
+  &_item {
+    &_row {
+      display: flex;
+    }
+    &_image {
+    img{flex: 0 0 200px;}
+
+    }
+    &_text {
+    }
+    &_title {
+    }
+    &_price {
+    }
+  }
+}
+.button {
+}
