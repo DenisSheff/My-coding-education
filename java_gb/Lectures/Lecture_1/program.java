@@ -8,17 +8,18 @@ public class program {
     // System.out.println(a++);
     // System.out.println(a);
     // System.out.println(++a);
-    int f = 123;
+    // int f = 123;
     // f = f-- - --f;
     // System.out.println(f);
     // f = --f - f--;
     // System.out.println(f);
-    int value = 321;
-    int count = 0;
-    while (value != 0) {
-      value /= 10;
-      count++;
-    }
-    System.out.println(count);
+    // int value = 321;
+    // int count = 0;
+    // while (value != 0) {
+    //   value /= 10;
+    //   count++;
+    // }
+    // System.out.println(count);
+    
   }
 }
