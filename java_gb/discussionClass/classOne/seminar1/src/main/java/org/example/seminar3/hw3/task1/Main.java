@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        Item item1 = new Item("High quality chicken", 150.90, 3);
+        Item item1 = new Item("High quality chicken", 150.90, 2);
         Item item2 = new Item("Pork", 190.70, 3);
         Item item3 = new Item("Chicken", 100.0, 3);
         Item item4 = new Item("High quality pork", 470.50, 1);
@@ -25,19 +25,25 @@ public class Main {
         groceriesList.add(item8);
 
         Double highestPrice = 0.0;
+        List<Double> priceCollection = new ArrayList<>();
 
         for (int i = 0; i < groceriesList.size(); i++) {
-            String keyWord = groceriesList.get(i).getName();
-            Integer keyCategory = groceriesList.get(i).getCategory();
-            if (keyWord.equals("High")
-                && keyCategory.equals(1)
-                || keyCategory.equals(2)) {
-                    if (groceriesList.get(i).getPrice() > highestPrice) {
-                        highestPrice = groceriesList.get(i).getPrice();
-                    }
+            Boolean keyword = groceriesList.get(i).getName().contains("High");
+            Boolean categoryOne = groceriesList.get(i).getCategory().equals(1);
+            Boolean categoryTwo = groceriesList.get(i).getCategory().equals(2);
+            if (keyword && categoryOne
+                    || keyword && categoryTwo) {
+                priceCollection.add(groceriesList.get(i).getPrice());
             }
         }
+
+        for (int i = 0; i < priceCollection.size(); i++) {
+            if (priceCollection.get(i) > highestPrice) {
+                highestPrice = priceCollection.get(i);
+            }
+        }
+
         System.out.println(groceriesList);
-        System.out.println(highestPrice);
+        System.out.println("Highest price of the goods is " + highestPrice);
     }
 }
