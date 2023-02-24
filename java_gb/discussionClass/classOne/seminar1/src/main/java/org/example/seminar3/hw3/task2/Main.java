@@ -30,28 +30,28 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input category of the goods: ");
         Integer search = scanner.nextInt();
-
-        Double lowestPrice = 0.0;
-        List<Double> priceCollection = new ArrayList<>();
-
-        for (int i = 0; i < groceriesList.size(); i++) {
-            Boolean keyword = groceriesList.get(i).getName().contains("High");
-            Boolean categoryOne = groceriesList.get(i).getCategory().equals(1);
-            Boolean categoryTwo = groceriesList.get(i).getCategory().equals(2);
-            if (keyword && categoryOne
-                    || keyword && categoryTwo) {
-                priceCollection.add(groceriesList.get(i).getPrice());
-            }
-        }
-
-        for (int i = 0; i < priceCollection.size(); i++) {
-            if (priceCollection.get(i) <= lowestPrice) {
-                lowestPrice = priceCollection.get(i);
-            }
-        }
-
-        System.out.println(groceriesList);
-        System.out.println(priceCollection);
-        System.out.println("Lowest price of the goods is " + lowestPrice);
+//
+//        Double lowestPrice = 0.0;
+//        List<Double> priceCollection = new ArrayList<>();
+//
+//        for (int i = 0; i < groceriesList.size(); i++) {
+//            Boolean keyword = groceriesList.get(i).getName().contains("High");
+//            Boolean categoryOne = groceriesList.get(i).getCategory().equals(1);
+//            Boolean categoryTwo = groceriesList.get(i).getCategory().equals(2);
+//            if (keyword && categoryOne
+//                    || keyword && categoryTwo) {
+//                priceCollection.add(groceriesList.get(i).getPrice());
+//            }
+//        }
+//
+//        for (int i = 0; i < priceCollection.size(); i++) {
+//            if (priceCollection.get(i) <= lowestPrice) {
+//                lowestPrice = priceCollection.get(i);
+//            }
+//        }
+//
+//        System.out.println(groceriesList);
+//        System.out.println(priceCollection);
+//        System.out.println("Lowest price of the goods is " + lowestPrice);
     }
 }
