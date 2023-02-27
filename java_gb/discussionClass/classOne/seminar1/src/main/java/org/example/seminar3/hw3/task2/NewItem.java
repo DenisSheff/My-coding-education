@@ -5,7 +5,8 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class Item {
+public class NewItem {
+    private String goodsName;
     private String countryName;
     private Double weight;
     private Double price;
