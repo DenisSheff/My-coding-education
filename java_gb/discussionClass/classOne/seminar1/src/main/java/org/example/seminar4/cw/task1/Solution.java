@@ -1,4 +1,4 @@
-package org.example.seminar4.task1;
+package org.example.seminar4.cw.task1;
 
 public class Solution {
     public ListNode reverseList(ListNode head) {

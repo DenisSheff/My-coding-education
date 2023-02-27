@@ -1,4 +1,4 @@
-package org.example.seminar4.task2;
+package org.example.seminar4.cw.task2;
 
 import java.util.Arrays;
 import java.util.LinkedList;
