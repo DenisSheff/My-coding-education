@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         Items items = new Items("qwe", "asd", 3);
         Items items1 = new Items("qwe1", "asd1", 3);
-        Items items2 = new Items("qwe", "asd", 3);
+        Items items2 = new Items("qwe", "asd ", 3);
         Items items4 = new Items("qwe", "fsdfsd", 10);
         List<Items> itemsList = new ArrayList<>();
         itemsList.add(items);
