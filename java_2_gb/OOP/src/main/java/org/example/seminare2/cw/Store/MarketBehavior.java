@@ -7,5 +7,5 @@ import java.util.List;
 public interface MarketBehavior {
     void acceptToMarket(Customer customer);
     void releaseFromMarket(Customer customer);
-    void update();
+    void update(Customer customer);
 }

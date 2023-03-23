@@ -1,6 +1,8 @@
 package org.example.seminare2.cw.Store;
 
 import org.example.seminare2.cw.Customer.Customer;
+import org.example.seminare2.cw.Customer.CustomerBehaviour;
+import org.example.seminare2.cw.Customer.Human;
 
 import java.util.*;
 
@@ -18,8 +20,14 @@ public class Market implements QueueBehavior, MarketBehavior {
     }
 
     @Override
-    public void update() {
-
+    public void update(Customer customer) {
+        Market market = new Market();
+        market.acceptToMarket(customer);
+        market.takeIdQueue(customer);
+        market.giveOrders();
+        market.takeOrders();
+        market.releaseFromQueue();
+        market.releaseFromMarket(customer);
     }
 
     @Override
