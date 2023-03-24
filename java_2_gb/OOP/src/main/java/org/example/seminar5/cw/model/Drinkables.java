@@ -1,4 +1,5 @@
-package org.example.seminar4.hw;
+package org.example.seminar5.cw.model;
+
 import java.math.BigDecimal;
 
 public class Drinkables extends Product {

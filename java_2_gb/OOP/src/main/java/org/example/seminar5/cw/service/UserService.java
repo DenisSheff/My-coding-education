@@ -1,2 +1,5 @@
-package org.example.seminar5.hw.service;public interface UserService {
+package org.example.seminar5.cw.service;
+
+public interface UserService {
+    void start();
 }

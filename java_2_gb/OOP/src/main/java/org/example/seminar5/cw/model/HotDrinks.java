@@ -1,9 +1,8 @@
-package org.example.seminar4.hw;
-import java.math.BigDecimal;
+package org.example.seminar5.cw.model;
 
 public class HotDrinks extends Drinkables {
     private int temp;
-    public HotDrinks(String name, BigDecimal price, Double volume, int temp) {
+    public HotDrinks(String name, float price, Double volume, int temp) {
         super(name, price, volume);
         this.temp = temp;
     }

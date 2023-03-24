@@ -1,4 +1,4 @@
-package org.example.seminar4.hw;
+package org.example.seminar5.cw.model;
 
 public interface VendingMachine {
     void initProduct();

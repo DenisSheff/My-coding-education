@@ -1,8 +1,7 @@
-package org.example.seminar4.hw;
-import java.math.BigDecimal;
+package org.example.seminar5.cw.model;
 
 public class BottleOfWater extends Drinkables {
-    public BottleOfWater(String name, BigDecimal price, Double volume) {
+    public BottleOfWater(String name, float price, Double volume) {
         super(name, price, volume);
     }
 }

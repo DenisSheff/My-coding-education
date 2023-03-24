@@ -1,5 +1,7 @@
-package org.example.seminar5.hw;
-import service.UserServiceImpl;
+package org.example.seminar5.cw;
+
+
+import org.example.seminar5.cw.service.UserServiceImpl;
 
 public class Main {
     public static void main(String[] args) {
